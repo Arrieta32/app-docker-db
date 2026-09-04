@@ -1,0 +1,9 @@
+# Variables de entorno con contraseñas
+.env
+
+# Archivos de persistencia o temporales
+postgres_data/
+vendor/
+.vscode/
+.idea/
+*.log
