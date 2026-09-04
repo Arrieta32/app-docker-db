@@ -13,7 +13,7 @@
 // -----------------------------------------------------------------------------
 // INICIALIZACIÓN Y CONEXIÓN A POSTGRESQL
 // -----------------------------------------------------------------------------
-$dbHost = getenv('DB_HOST') ?: 'db';
+$dbHost = getenv('DB_HOST') ?: 'db'
 $dbPort = getenv('DB_PORT') ?: '5432';
 $dbName = getenv('DB_NAME') ?: 'app_db';
 $dbUser = getenv('DB_USER') ?: 'app_user';
