@@ -1,0 +1,33 @@
+services:
+  web:
+    build: .
+    container_name: prog4_web_apache
+    restart: always
+    ports:
+      - "8088:80"
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: app_db
+      DB_USER: app_user
+      DB_PASS: app_secret_password
+
+  db:
+    image: postgres:16-alpine
+    container_name: prog4_db_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: app_db
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: app_secret_password
+    ports:
+      - "5434:5432"   # <-- Cambiado de 5433 a 5434
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

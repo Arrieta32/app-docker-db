@@ -1,0 +1,34 @@
+name: CI Pipeline - Programación IV
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-test:
+    name: Validar Sintaxis y Ejecutar Pruebas
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Descargar el código del repositorio en la máquina virtual
+      - name: Descargar repositorio (Checkout)
+        uses: actions/checkout@v4
+
+      # 2. Configurar el runtime oficial de PHP 8.4
+      - name: Configurar entorno PHP 8.4
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: pdo, pdo_pgsql
+
+      # 3. Validar sintaxis de todos los archivos PHP
+      - name: Revisar sintaxis de PHP (Linting)
+        run: |
+          find src/ -type f -name "*.php" -exec php -l {} \;
+
+      # 4. Ejecutar el script de prueba
+      - name: Ejecutar pruebas del proyecto
+        run: |
+          php tests/ArchitectureTest.php
