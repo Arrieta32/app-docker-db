@@ -8,6 +8,8 @@
  * Entorno: Apache 2.4 + PHP 8.4 + PostgreSQL 16 (Docker)
  */
 
+// Modificación para validar pipeline CI/CD en GitHub Actions
+
 // -----------------------------------------------------------------------------
 // INICIALIZACIÓN Y CONEXIÓN A POSTGRESQL
 // -----------------------------------------------------------------------------
