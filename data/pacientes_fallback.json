@@ -1,0 +1,89 @@
+[
+    {
+        "numero_documento": "8365078",
+        "nombre_completo": "Paciente Contingencia CLI",
+        "fecha_nacimiento": "1995-10-10",
+        "telefono": "0971-000111",
+        "item_tipo_doc": "CI",
+        "item_sexo": "F",
+        "item_ciudad": "ASU",
+        "origen": "Validación CLI",
+        "id_persona": "FALLBACK-20261009222207-7800",
+        "creado_en": "2026-10-09 22:22:07"
+    },
+    {
+        "numero_documento": "5476983",
+        "nombre_completo": "Paciente Contingencia CLI",
+        "fecha_nacimiento": "1995-10-10",
+        "telefono": "0971-000111",
+        "item_tipo_doc": "CI",
+        "item_sexo": "F",
+        "item_ciudad": "ASU",
+        "origen": "Validación CLI",
+        "id_persona": "FALLBACK-20261009222235-7028",
+        "creado_en": "2026-10-09 22:22:35"
+    },
+    {
+        "numero_documento": "7821577",
+        "nombre_completo": "Paciente Contingencia CLI",
+        "fecha_nacimiento": "1995-10-10",
+        "telefono": "0971-000111",
+        "item_tipo_doc": "CI",
+        "item_sexo": "F",
+        "item_ciudad": "ASU",
+        "origen": "Validación CLI",
+        "id_persona": "FALLBACK-20261009222822-0381",
+        "creado_en": "2026-10-09 22:28:22"
+    },
+    {
+        "numero_documento": "5700101",
+        "nombre_completo": "María Elizabeth Benítez",
+        "fecha_nacimiento": "1996-08-24",
+        "telefono": "0981-445566",
+        "item_tipo_doc": "CI",
+        "item_sexo": "F",
+        "item_ciudad": "ASU",
+        "origen": "Fallback por Excepción BD",
+        "error_db": "SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint \"unq_persona_doc_empresa\"\nDETAIL:  Key (\"IdEmpresa\", \"CatTipoDoc\", \"ItemTipoDoc\", \"NumeroDocumento\")=(1, TIPO_DOC, CI, 5700101) already exists.",
+        "id_persona": "FALLBACK-20261009222846-6313",
+        "creado_en": "2026-10-09 22:28:46"
+    },
+    {
+        "numero_documento": "5700101",
+        "nombre_completo": "María Elizabeth Benítez",
+        "fecha_nacimiento": "1996-08-24",
+        "telefono": "0981-445566",
+        "item_tipo_doc": "CI",
+        "item_sexo": "F",
+        "item_ciudad": "ASU",
+        "origen": "Fallback por Excepción BD",
+        "error_db": "SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint \"unq_persona_doc_empresa\"\nDETAIL:  Key (\"IdEmpresa\", \"CatTipoDoc\", \"ItemTipoDoc\", \"NumeroDocumento\")=(1, TIPO_DOC, CI, 5700101) already exists.",
+        "id_persona": "FALLBACK-20261009222915-8894",
+        "creado_en": "2026-10-09 22:29:15"
+    },
+    {
+        "numero_documento": "5700101",
+        "nombre_completo": "María Elizabeth Benítez",
+        "fecha_nacimiento": "1996-08-24",
+        "telefono": "0981-445566",
+        "item_tipo_doc": "CI",
+        "item_sexo": "F",
+        "item_ciudad": "ASU",
+        "origen": "Fallback por Excepción BD",
+        "error_db": "SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint \"unq_persona_doc_empresa\"\nDETAIL:  Key (\"IdEmpresa\", \"CatTipoDoc\", \"ItemTipoDoc\", \"NumeroDocumento\")=(1, TIPO_DOC, CI, 5700101) already exists.",
+        "id_persona": "FALLBACK-20261009223120-3171",
+        "creado_en": "2026-10-09 22:31:20"
+    },
+    {
+        "numero_documento": "3834630",
+        "nombre_completo": "Paciente Contingencia CLI",
+        "fecha_nacimiento": "1995-10-10",
+        "telefono": "0971-000111",
+        "item_tipo_doc": "CI",
+        "item_sexo": "F",
+        "item_ciudad": "ASU",
+        "origen": "Validación CLI",
+        "id_persona": "FALLBACK-20261009224856-1689",
+        "creado_en": "2026-10-09 22:48:56"
+    }
+]
