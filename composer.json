@@ -1,0 +1,17 @@
+{
+    "name": "app/agendamiento-medico",
+    "description": "Sistema de Agendamiento Médico - Sesión 1: Fundación, Conexión y Resiliencia",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^8.4"
+    }
+}

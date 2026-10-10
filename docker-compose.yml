@@ -6,7 +6,8 @@ services:
     ports:
       - "8088:80"
     volumes:
-      - ./src:/var/www/html
+      # Monta la raíz para tener acceso a src, public y data en vivo
+      - ./:/var/www/html
     depends_on:
       - db
     environment:
@@ -25,9 +26,10 @@ services:
       POSTGRES_USER: app_user
       POSTGRES_PASSWORD: app_secret_password
     ports:
-      - "5434:5432"   # <-- Cambiado de 5433 a 5434
+      - "5434:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./database:/docker-entrypoint-initdb.d:ro
 
 volumes:
   postgres_data:

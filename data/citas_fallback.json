@@ -1,0 +1,32 @@
+[
+    {
+        "paciente": "Paciente Prueba CLI",
+        "medico": "Dr. Diagnóstico CLI",
+        "especialidad": "Medicina General",
+        "fecha_hora": "2026-10-09 20:35:53",
+        "motivo": "Prueba interactiva vía consola CLI",
+        "origen": "Simulación CLI",
+        "id": "FALLBACK-20261009203553-0230",
+        "creado_en": "2026-10-09 20:35:53"
+    },
+    {
+        "paciente": "Paciente Prueba CLI",
+        "medico": "Dr. Diagnóstico CLI",
+        "especialidad": "Medicina General",
+        "fecha_hora": "2026-10-09 20:36:10",
+        "motivo": "Prueba interactiva vía consola CLI",
+        "origen": "Contingencia JSON CLI",
+        "id": "FALLBACK-20261009203610-5440",
+        "creado_en": "2026-10-09 20:36:10"
+    },
+    {
+        "paciente": "Paciente Prueba CLI",
+        "medico": "Dr. Diagnóstico CLI",
+        "especialidad": "Medicina General",
+        "fecha_hora": "2026-10-09 20:37:05",
+        "motivo": "Prueba interactiva vía consola CLI",
+        "origen": "Simulación CLI",
+        "id": "FALLBACK-20261009203705-8744",
+        "creado_en": "2026-10-09 20:37:05"
+    }
+]

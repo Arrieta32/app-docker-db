@@ -1,5 +1,6 @@
 <?php
 // tests/ArchitectureTest.php
+// Mensaje
 
 echo "Iniciando pruebas automatizadas...\n";
 
